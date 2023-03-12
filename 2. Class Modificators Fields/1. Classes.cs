@@ -29,6 +29,9 @@
         string _firstName = "John";
         string _lastName = "Doe";
         string _group;
+        /// <summary>
+        /// Вывод имени студента в консоль
+        /// </summary>
         public void Print()
         {
             Console.WriteLine($"Студент {_firstName} {_lastName}");
