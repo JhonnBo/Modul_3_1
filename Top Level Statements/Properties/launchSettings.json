@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Top Level Statements": {
+      "commandName": "Project",
+      "commandLineArgs": "sun cat dogs cup tea"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>_6._Ref_Otu_Tuples</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="1. Ref.cs" />
+    <Compile Remove="2. Out.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="1. Ref.cs" />
+    <None Include="2. Out.cs" />
+  </ItemGroup>
+
+</Project>

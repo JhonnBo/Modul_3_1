@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>_5._This</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="2 variant of usage this.cs" />
+    <Compile Remove="3 variant of usage this.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="2 variant of usage this.cs" />
+    <None Include="3 variant of usage this.cs" />
+  </ItemGroup>
+
+</Project>
